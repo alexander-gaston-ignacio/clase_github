@@ -1,0 +1,23 @@
+header {
+    height: 10vh;
+    nav {
+        @include flex(row, space-around, center);
+
+        h1 {
+            font-size: 3em;
+            color: blue;
+        }
+
+        ul {
+            @include flex(row, space-around, center);
+            list-style-type: none;
+
+            li {
+                a {
+                    font-size: 2em;
+                    color: blue;
+                }
+            }
+        }
+    }
+}
